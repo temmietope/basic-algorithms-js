@@ -8,7 +8,7 @@ const Calc = (input, range) => {
     return console.log("Pass in an array");  //Return if not an array
   }
   let total = 0;
-  for (let i = 0; i <= input.length; i++) {
+  for (let i = 0; i < input.length; i++) {
     if (input[i] < range) {
       total += input[i];
     } else continue;
