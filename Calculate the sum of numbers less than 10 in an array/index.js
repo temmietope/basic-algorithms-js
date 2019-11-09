@@ -10,7 +10,7 @@ const Calc = (input, range) => {
   let total = 0;
   for (let i = 0; i <= input.length; i++) {
     if (input[i] < range) {
-      total = total + input[i];
+      total += input[i];
     } else continue;
   }
   console.log(total);
