@@ -8,5 +8,5 @@ function FirstReverse(str) {
   return rev_string;
 }
 
-console.log(FirstReverse(code));
+console.log(FirstReverse("code"));
 //RESULT: edoc
