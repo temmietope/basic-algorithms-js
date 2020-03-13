@@ -1,12 +1,12 @@
 //Calculate factorial
 
-const percentile = x => {
-  let perc = x;
+const factorial = x => {
+  let fac = x;
   for (let i = x - 1; i >= 1; i--) {
-    perc *= i;
+    fac *= i;
   }
-  console.log(perc);
+  console.log(fac);
 };
 
-percentile(10);
+factorial=(10);
 //RESULT = 3628800

@@ -8,14 +8,31 @@ You are to write a program to read and analyse the data from 50 students. The st
 The average score for each question should be calculated and reported. Finally, the question with the lowest total score should be reported**/
 
 
-const gradeEachStudent = (studentsData)=>{
-    for (let student = 1; student <= 50; student++) {
-        for (let question = 1; question <= 10; question++) {
+// const gradeEachStudent = (studentsData)=>{
+//     for (let student = 1; student <= 50; student++) {
+//         for (let question = 1; question <= 10; question++) {
             
-        }
-      }
-}
-const gradeQuestionnaire = studentsData => {
-  let scorePerOption = [-5, -2, 0, 2, 5];
+//         }
+//       }
+// }
+// const gradeQuestionnaire = studentsData => {
+//   let scorePerOption = [-5, -2, 0, 2, 5];
   
-};
+// };
+
+const average=(answers)=>{
+  const columns = []
+  const len = answers.length
+
+  // for(let studentNo = 0; studentNo< len; studentNo++){
+  //   for(let ans=0; ans<answers[studentNo].length; ans++){
+  //     columns[studentNo] += answers[studentNo][ans]
+  //   }
+  // }
+
+  for(let studentNo = 0; studentNo< len; studentNo++){
+    for(let ans=0; ans<answers[studentNo].length; ans++){
+      columns[studentNo]
+    }
+  }
+}
